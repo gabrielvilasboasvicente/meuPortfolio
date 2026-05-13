@@ -56,7 +56,7 @@ function initTabs(container) {
 document.querySelectorAll('.tabs-container').forEach(initTabs);
 
 // External tab switch (for footer links)
-window.switchTab = function(tabId) {
+window.switchTab = function (tabId) {
     const container = document.getElementById('project-tabs');
     if (!container) return;
     const btn = container.querySelector(`[data-tab="${tabId}"]`);
@@ -103,9 +103,9 @@ function createParticles() {
     style.textContent = `
         @keyframes float {
             0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
-            25% { transform: translate(${Math.random()*40-20}px, -30px) scale(1.2); opacity: 0.7; }
-            50% { transform: translate(${Math.random()*60-30}px, -50px) scale(0.8); opacity: 0.3; }
-            75% { transform: translate(${Math.random()*40-20}px, -20px) scale(1.1); opacity: 0.6; }
+            25% { transform: translate(${Math.random() * 40 - 20}px, -30px) scale(1.2); opacity: 0.7; }
+            50% { transform: translate(${Math.random() * 60 - 30}px, -50px) scale(0.8); opacity: 0.3; }
+            75% { transform: translate(${Math.random() * 40 - 20}px, -20px) scale(1.1); opacity: 0.6; }
         }
     `;
     document.head.appendChild(style);

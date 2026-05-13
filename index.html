@@ -89,7 +89,7 @@
                         <div class="about-divider"></div>
                         <p class="about-bio">
                             Eu sou o Gabriel, aqui você vai encontrar tudo sobre minha jornada acadêmica e projetos
-                            pessoais, no passado eu realizei um curso de Piloto privado de avião, mas acabei desistindo
+                            pessoais, no passado, realizei um curso de Piloto privado de avião, mas acabei desistindo
                             por questões pessoais,
                             no meu tempo livre gosto de ficar em casa no computador jogando, conversando com amigos e
                             estudando, estou no começo da minha jornada e tenho muito a aprender.
@@ -132,6 +132,14 @@
                         </svg>
                         Pensamento Computacional
                     </button>
+                    <button class="tab-btn" data-tab="interdisciplinar" id="tab-interdisciplinar">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                        </svg>
+                        Projeto Interdisciplinar
+                    </button>
                     <div class="tab-indicator" id="tab-indicator"></div>
                 </div>
 
@@ -172,17 +180,222 @@
                                     style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
                             </div>
                             <h3 class="project-title">Pensamento Computacional</h3>
-                            <p class="project-description">
-
-                            </p>
+                            <p class="project-description">O Pensamento Computacional é um curso gratuito que a UniFil
+                                computação oferece
+                                a alunos do ensimo médio de escolas públicas ou privadas. O objetivo deste curso é fazer
+                                com que esses alunos aprendam os fundamentos da lógica de programação e um pouco sobre o
+                                mundo da computação.</p>
                             <div class="project-objectives">
                                 <h4>Objetivos</h4>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li>Auxiliar o instrutor durante as aulas</li>
+                                    <li>Sanar possíveis dúvidas/aflições dos alunos</li>
+                                    <li>Manter a ordem na sala de aula</li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto Interdisciplinar -->
+                <div class="tab-content" id="content-interdisciplinar">
+                    <div class="project-showcase">
+                        <div class="project-info" style="width: 100%;">
+                            <div class="project-icon-wrapper"
+                                style="padding: 0; overflow: hidden; display: flex; align-items: center; justify-content: center; background: rgba(34, 197, 94, 0.1); color: #22c55e;">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                                </svg>
+                            </div>
+                            <h3 class="project-title">O que estou aprendendo</h3>
+                            <p class="project-description">
+                                Nesta aba você pode conferir o que venho aprendendo no meu curso.
+                            </p>
+
+                            <!-- Matérias Accordions -->
+                            <div class="reports-grid" style="margin-top: 2rem;">
+
+                                <!-- Matéria 1: Matemática Discreta -->
+                                <article class="report-card glass-card" id="materia-1">
+                                    <div class="report-toggle" onclick="toggleReport(this)">
+                                        <div class="report-toggle-left">
+                                            <div class="report-badge"
+                                                style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">Matéria 1
+                                            </div>
+                                            <h4 class="report-title">Matemática Discreta</h4>
+                                        </div>
+                                        <svg class="report-chevron" width="20" height="20" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9" />
+                                        </svg>
+                                    </div>
+                                    <div class="report-collapse">
+                                        <div class="report-collapse-inner">
+                                            <div class="report-expand-grid">
+                                                <div class="report-text-area" style="width: 100%;">
+                                                    <p class="report-summary"></p>
+                                                    <div class="report-tags">
+                                                        <span class="report-tag">Lógica</span>
+                                                        <span class="report-tag">Conjuntos</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Matéria 2: Arquitetura e Organização de Computadores -->
+                                <article class="report-card glass-card" id="materia-2">
+                                    <div class="report-toggle" onclick="toggleReport(this)">
+                                        <div class="report-toggle-left">
+                                            <div class="report-badge"
+                                                style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">Matéria 2
+                                            </div>
+                                            <h4 class="report-title">Arquitetura e Organização de Computadores</h4>
+                                        </div>
+                                        <svg class="report-chevron" width="20" height="20" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9" />
+                                        </svg>
+                                    </div>
+                                    <div class="report-collapse">
+                                        <div class="report-collapse-inner">
+                                            <div class="report-expand-grid">
+                                                <div class="report-text-area" style="width: 100%;">
+                                                    <p class="report-summary"></p>
+                                                    <div class="report-tags">
+                                                        <span class="report-tag">Hardware</span>
+                                                        <span class="report-tag">Processadores</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Matéria 3: Lógica de Programação e Algoritmos -->
+                                <article class="report-card glass-card" id="materia-3">
+                                    <div class="report-toggle" onclick="toggleReport(this)">
+                                        <div class="report-toggle-left">
+                                            <div class="report-badge"
+                                                style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">Matéria 3
+                                            </div>
+                                            <h4 class="report-title">Lógica de Programação e Algoritmos</h4>
+                                        </div>
+                                        <svg class="report-chevron" width="20" height="20" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9" />
+                                        </svg>
+                                    </div>
+                                    <div class="report-collapse">
+                                        <div class="report-collapse-inner">
+                                            <div class="report-expand-grid">
+                                                <div class="report-text-area" style="width: 100%;">
+                                                    <p class="report-summary"></p>
+                                                    <div class="report-tags">
+                                                        <span class="report-tag">Algoritmos</span>
+                                                        <span class="report-tag">Programação</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Matéria 4: Gerenciamento de Versão -->
+                                <article class="report-card glass-card" id="materia-4">
+                                    <div class="report-toggle" onclick="toggleReport(this)">
+                                        <div class="report-toggle-left">
+                                            <div class="report-badge"
+                                                style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">Matéria 4
+                                            </div>
+                                            <h4 class="report-title">Gerenciamento de Versão</h4>
+                                        </div>
+                                        <svg class="report-chevron" width="20" height="20" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9" />
+                                        </svg>
+                                    </div>
+                                    <div class="report-collapse">
+                                        <div class="report-collapse-inner">
+                                            <div class="report-expand-grid">
+                                                <div class="report-text-area" style="width: 100%;">
+                                                    <p class="report-summary"></p>
+                                                    <div class="report-tags">
+                                                        <span class="report-tag">Git</span>
+                                                        <span class="report-tag">Controle de Versão</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Matéria 5: Gerência de Requisitos -->
+                                <article class="report-card glass-card" id="materia-5">
+                                    <div class="report-toggle" onclick="toggleReport(this)">
+                                        <div class="report-toggle-left">
+                                            <div class="report-badge"
+                                                style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">Matéria 5
+                                            </div>
+                                            <h4 class="report-title">Gerência de Requisitos</h4>
+                                        </div>
+                                        <svg class="report-chevron" width="20" height="20" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9" />
+                                        </svg>
+                                    </div>
+                                    <div class="report-collapse">
+                                        <div class="report-collapse-inner">
+                                            <div class="report-expand-grid">
+                                                <div class="report-text-area" style="width: 100%;">
+                                                    <p class="report-summary"></p>
+                                                    <div class="report-tags">
+                                                        <span class="report-tag">Requisitos</span>
+                                                        <span class="report-tag">Engenharia de Software</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <!-- Matéria 6: Processo e Desenvolvimento de Software -->
+                                <article class="report-card glass-card" id="materia-6">
+                                    <div class="report-toggle" onclick="toggleReport(this)">
+                                        <div class="report-toggle-left">
+                                            <div class="report-badge"
+                                                style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">Matéria 6
+                                            </div>
+                                            <h4 class="report-title">Processo e Desenvolvimento de Software</h4>
+                                        </div>
+                                        <svg class="report-chevron" width="20" height="20" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="6 9 12 15 18 9" />
+                                        </svg>
+                                    </div>
+                                    <div class="report-collapse">
+                                        <div class="report-collapse-inner">
+                                            <div class="report-expand-grid">
+                                                <div class="report-text-area" style="width: 100%;">
+                                                    <p class="report-summary"></p>
+                                                    <div class="report-tags">
+                                                        <span class="report-tag">Metodologias</span>
+                                                        <span class="report-tag">Ciclo de Vida</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
                             </div>
                         </div>
                     </div>
@@ -889,7 +1102,75 @@
                 <div class="tab-content" id="content-rel-computacional">
                     <div class="reports-grid">
 
-
+                        <article class="report-card glass-card" id="report-pc-1">
+                            <div class="report-toggle" onclick="toggleReport(this)">
+                                <div class="report-toggle-left">
+                                    <div class="report-badge blue-badge">Aula 01</div>
+                                    <h4 class="report-title">Introdução ao Pensamento Computacional</h4>
+                                </div>
+                                <svg class="report-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9" />
+                                </svg>
+                            </div>
+                            <div class="report-collapse">
+                                <div class="report-collapse-inner">
+                                    <div class="report-expand-grid">
+                                        <div class="report-photos">
+                                            <div class="report-photo-slot">
+                                                <img src="assets/aula1pensamento.jpeg" alt="Foto Aula 01 PC"
+                                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                                                <div class="photo-empty"><svg width="24" height="24" viewBox="0 0 24 24"
+                                                        fill="none" stroke="currentColor" stroke-width="1.5">
+                                                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                                                        <circle cx="8.5" cy="8.5" r="1.5" />
+                                                        <path d="M21 15l-5-5L5 21" />
+                                                    </svg><span>Foto 1</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="report-text-area">
+                                            <div class="report-date-inline">
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <rect x="3" y="4" width="18" height="18" rx="2" />
+                                                    <path d="M16 2v4M8 2v4M3 10h18" />
+                                                </svg>
+                                                <span>13/05/2026</span>
+                                            </div>
+                                            <p class="report-summary">Essa aula foi o início do curso, onde foi alinhado
+                                                todas
+                                                as expectavivas com os alunos, foi explicado como devem se comportar no
+                                                laboratório,
+                                                a ementa do curso foi apresentada e então o instrutor colocou um link
+                                                pra todos
+                                                acessarem, esse link levava a um formulário google onde foi feita uma
+                                                avaliação
+                                                diagnóstica.</p>
+                                            <p class="report-summary">A avaliação tinha duas partes, a primeira sendo
+                                                perguntas
+                                                sobre lógica básica, e a segunda continha perguntas mais voltadas a
+                                                programação,
+                                                peguntas como "O que é uma variável?", "O que é prototipação?", "Você
+                                                sabe o que é uma string?", entre outras.
+                                            </p>
+                                            <p class="report-summary">Após a conclusão da atividade, foi feita uma
+                                                dinâmica no kahoot,
+                                                na qual todos os alunos entraram e começaram a jogar, foi um momento bem
+                                                descontraído,
+                                                pois nesse quiz haviam perguntas que não tinham nada a ver com
+                                                computação, como, "O neymar vai pra copa?".</p>
+                                            <p class="report-summary">A aula enfim terminou por volta das 16:00 e os
+                                                alunos foram liberados.
+                                                Pude notar a imensa diferença entre os dois cursos, são pessoas muito
+                                                mais tranquilas em relação ao
+                                                comportamento, gostei muito de participar desse curso como monitor.</p>
+                                            <div class="report-tags"><span class="report-tag"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
 
                     </div>
                 </div>
@@ -940,7 +1221,7 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <img src="assets/logo_unifil.png" alt="Logo UniFil" class="footer-logo">
-                    <p>Portfólio de Extensão Curricular</p>
+                    <p>Portfólio de Gabriel Vicente</p>
                     <p class="footer-institution">Centro Universitário Filadélfia — UniFil</p>
                 </div>
                 <div class="footer-links">
@@ -950,6 +1231,7 @@
                         <li><a href="#projetos">Projetos</a></li>
                         <li><a href="#monitoria">Monitoria</a></li>
                         <li><a href="#relatorios">Relatórios</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
@@ -957,12 +1239,15 @@
                     <ul>
                         <li><a href="#projetos" onclick="switchTab('londrinense')">Londrinense Tech</a></li>
                         <li><a href="#projetos" onclick="switchTab('computacional')">Pensamento Computacional</a></li>
+                        <li><a href="#projetos" onclick="switchTab('interdisciplinar')">Projeto Interdisciplinar</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 — Portfólio Acadêmico | UniFil</p>
-            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 — Portfólio Acadêmico | UniFil</p>
+        </div>
         </div>
     </footer>
 
